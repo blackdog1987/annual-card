@@ -1,0 +1,39 @@
+{
+  "server": {
+    "ip": "0.0.0.0",
+    "port": ":8081",
+    "mode": "debug",
+    "name": "AnnualCard",
+    "version": "0.1",
+    "session_space": "annual-card",
+    "secret": "ac",
+    "host": "http://wx.qinzinianka.com",
+    "white-list": [],
+    "picture": "./picture.jpg"
+  },
+  "cert": {
+    "key_path": "./key/key.pem",
+    "cert_path": "./key/cert.pem"
+  },
+  "mysql": {
+    "dsn": "root:112324yjh.@tcp(120.76.223.14:3306)/annual?charset=utf8",
+    "max_conn": 2,
+    "max_idle": 1,
+    "show_sql": true
+  },
+  "wechat": {
+    "name": "年卡",
+    "account": "gh_fa90200da696",
+    "appid": "wx2df87c500b984c2d",
+    "secret": "898ccb40722bd8da3fe5906a62157e71",
+    "aes": "AazqKJNOUdmkLgSx7pJyJeqa8C2HSj94h6EmNo2dM2n",
+    "state": "annual",
+    "token": "annual",
+    "key": "ZhongKJ2015Cheneibao2016xmly2011",
+    "mch_id": "1405682102",
+    "notify_url": "http://wx.qinzinianka.com/v1/wxpay_notify",
+    "cert_key_path": "cert/key.pem",
+    "cert_cert_path": "cert/cert.pem",
+    "cert_ca_path": "cert/ca.pem"
+  }
+}
