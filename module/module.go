@@ -1,6 +1,6 @@
 package module
 
-import "github.com/molibei/annual-card/lib/data"
+import "github.com/blackdog1987/annual-card/lib/data"
 
 // ManagerModule .
 type ManagerModule interface {

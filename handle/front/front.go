@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/molibei/annual-card/lib/data"
-	"github.com/molibei/annual-card/module"
+	"github.com/blackdog1987/annual-card/lib/data"
+	"github.com/blackdog1987/annual-card/module"
 	"github.com/molibei/page"
-	"github.com/molibei/annual-card/lib/errors"
+	"github.com/blackdog1987/annual-card/lib/errors"
 	"bytes"
 	"os"
 	"image/jpeg"

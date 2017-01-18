@@ -11,8 +11,8 @@ import (
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
-	"github.com/molibei/annual-card/lib/data"
-	"github.com/molibei/annual-card/module"
+	"github.com/blackdog1987/annual-card/lib/data"
+	"github.com/blackdog1987/annual-card/module"
 	"time"
 )
 

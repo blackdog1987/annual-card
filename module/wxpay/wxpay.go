@@ -17,8 +17,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/molibei/annual-card/lib/data"
-	"github.com/molibei/annual-card/module"
+	"github.com/blackdog1987/annual-card/lib/data"
+	"github.com/blackdog1987/annual-card/module"
 )
 
 type WxPayService struct{}
